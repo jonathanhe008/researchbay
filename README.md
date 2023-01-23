@@ -9,7 +9,9 @@
   <p align="center">
     A web platform for efficiently connecting students to research opportunities and professors
     <br />
-    <a href="https://research-bay.web.app"><strong><< Live Website >></strong></a>
+    <a href="https://research-bay.web.app"><strong>Website</strong></a>
+    ·
+    <a href="https://www.youtube.com/watch?v=7Y3ZaZOOMEI"><strong>Demo</strong></a>
     <br />
     <br />
   <strong>Code Repository Links</strong>
@@ -117,6 +119,7 @@ The latest versions of the following software are required:
 * [git](https://git-scm.com/downloads)
 * [npm](https://www.npmjs.com/get-npm)
 * [Firebase CLI](https://firebase.google.com/docs/cli)
+* [Google Cloud SDK CLI](https://cloud.google.com/sdk/docs/quickstarts)
 
 #### Creating a Firebase Project
 
@@ -177,7 +180,13 @@ The Research Bay Cloud Functions should now be deployed. Any local changes to fu
 
 #### Data/ML
 
-TODO
+```sh
+git clone https://github.com/DSC-UIUC/rbay-data-ml.git rbay-data-ml
+cd rbay-data-ml
+cd recommendation_algorithm
+gcloud functions deploy main --runtime python37 --trigger-http --allow-unauthenticated
+```
+The Recommendation Cloud Functions should now be deployed. All local changes will need to be redeployed to update GCP.
 
 ## Usage
 

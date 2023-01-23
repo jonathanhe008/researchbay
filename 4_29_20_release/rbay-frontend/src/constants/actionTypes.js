@@ -1,0 +1,28 @@
+export const GET_CONFIG = "GET_CONFIG";
+
+export const LOADING_START = "LOADING_START";
+export const LOADING_END = "LOADING_END";
+
+export const SIGN_IN = "SIGN_IN";
+export const SIGN_UP = "SIGN_UP";
+export const SIGN_OUT = "SIGN_OUT";
+export const SIGN_IN_FAILED = "SIGN_IN_FAILED";
+export const SIGN_UP_FAILED = "SIGN_UP_FAILED";
+export const CHECK_TOKEN = "CHECK_TOKEN";
+
+export const RESET_DATA = "RESET_DATA";
+export const GET_PROFILE = "GET_PROFILE";
+export const GET_VIEW_PROFILE = "GET_VIEW_PROFILE";
+export const SET_PROFILE = "SET_PROFILE";
+
+export const CREATE_POSTING = "CREATE_POSTING";
+export const UPDATE_POSTING = "UPDATE_POSTING";
+export const DELETE_POSTING = "DELETE_POSTING";
+export const GET_USER_POSTINGS = "GET_USER_POSTINGS";
+export const GET_USER_POSTINGS_FAILED = "GET_USER_POSTINGS_FAILED";
+export const APPLY_POSTING = "APPLY_POSTING";
+
+export const GET_SEARCH = "GET_SEARCH";
+export const RESET_SEARCH = "RESET_SEARCH";
+export const GET_RECOMMENDATIONS = "GET_RECOMMENDATIONS";
+export const RESET_RECOMMENDATIONS = "RESET_RECOMMENDATIONS";
